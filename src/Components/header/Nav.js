@@ -7,9 +7,9 @@ const NavItem = () => {
   return (
     <nav>
       <ul className="nav-list">
-        {dataMenu.map(({ url, link }) => {
+        {dataMenu.map(({ url, link, id }) => {
           return (
-            <ListItem url={url} key={link}>
+            <ListItem url={url} key={id}>
               {link}
             </ListItem>
           );
