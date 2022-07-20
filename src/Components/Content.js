@@ -1,7 +1,7 @@
 import React from 'react';
 import ArticleList from './main/ArticleList';
 
-const Main = () => {
+const Content = () => {
   return (
     <main>
       <section className="posts">
@@ -14,4 +14,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Content;

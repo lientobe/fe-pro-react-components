@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from './Article';
 
-import { dataArticle } from '../data/dataArticle';
+import { dataArticle } from '../data/dataLists';
 
 const ArticleList = () => {
   return (

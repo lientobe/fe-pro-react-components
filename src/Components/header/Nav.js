@@ -1,7 +1,7 @@
 import React from 'react';
 import ListItem from './ListItem';
 
-import { dataMenu } from '../data/dataMenu';
+import { dataMenu } from '../data/dataLists';
 
 const NavItem = () => {
   return (
